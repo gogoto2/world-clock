@@ -42,6 +42,7 @@
 		AF6897811C7FB6D800A24825 /* WorldClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B7B94B1C7F3CFC007060CB /* WorldClock.framework */; };
 		AF6897831C7FBEC500A24825 /* WCCity.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8108981C7CD4BA0065C422 /* WCCity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF6897841C7FBEC500A24825 /* WCController.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B7B93F1C7F2373007060CB /* WCController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF6897DF1C7FC3BF00A24825 /* watch-app.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50B7B9761C7F44B9007060CB /* watch-app.app */; };
 		EC30966D0DA50D59B1F12ADC /* Pods_WorldClockWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF68AF450ACA6FFF47DBF93B /* Pods_WorldClockWatch.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = AF68976E1C7FB4E500A24825;
 			remoteInfo = WorldClockWatch;
+		};
+		AF6897DC1C7FC3A000A24825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6489561C7B8F06008D788E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B7B9751C7F44B9007060CB;
+			remoteInfo = "watch-app";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -83,6 +91,16 @@
 				AF6897771C7FB4E500A24825 /* WorldClockWatch.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6897DE1C7FC3A600A24825 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AF6897DF1C7FC3BF00A24825 /* watch-app.app in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -228,7 +246,6 @@
 		50B7B9771C7F44B9007060CB /* watch-app */ = {
 			isa = PBXGroup;
 			children = (
-				50B7B9861C7F44B9007060CB /* watch-app Extension */,
 				50B7B9781C7F44B9007060CB /* Interface.storyboard */,
 				50B7B97B1C7F44B9007060CB /* Assets.xcassets */,
 				50B7B97D1C7F44B9007060CB /* Info.plist */,
@@ -310,9 +327,10 @@
 			isa = PBXGroup;
 			children = (
 				50B7B94C1C7F3CFC007060CB /* WorldClock Framework */,
-				AF6897701C7FB4E500A24825 /* WorldClockWatch */,
+				AF6897701C7FB4E500A24825 /* WorldClockWatch Framework */,
 				50B7B9A51C7F44D9007060CB /* ios-app */,
 				50B7B9671C7F443E007060CB /* widget */,
+				50B7B9861C7F44B9007060CB /* watch-app Extension */,
 				50B7B9771C7F44B9007060CB /* watch-app */,
 				AF64895F1C7B8F06008D788E /* Products */,
 				6D4C44B51CB397925D832ADC /* Pods */,
@@ -342,11 +360,12 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		AF6897701C7FB4E500A24825 /* WorldClockWatch */ = {
+		AF6897701C7FB4E500A24825 /* WorldClockWatch Framework */ = {
 			isa = PBXGroup;
 			children = (
 				AF6897731C7FB4E500A24825 /* Info.plist */,
 			);
+			name = "WorldClockWatch Framework";
 			path = WorldClockWatch;
 			sourceTree = "<group>";
 		};
@@ -466,10 +485,12 @@
 				50B7B9A01C7F44D9007060CB /* Sources */,
 				50B7B9A11C7F44D9007060CB /* Frameworks */,
 				50B7B9A21C7F44D9007060CB /* Resources */,
+				AF6897DE1C7FC3A600A24825 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AF6897DD1C7FC3A000A24825 /* PBXTargetDependency */,
 			);
 			name = "ios-app";
 			productName = "ios-app";
@@ -727,6 +748,11 @@
 			target = AF68976E1C7FB4E500A24825 /* WorldClockWatch */;
 			targetProxy = AF6897741C7FB4E500A24825 /* PBXContainerItemProxy */;
 		};
+		AF6897DD1C7FC3A000A24825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50B7B9751C7F44B9007060CB /* watch-app */;
+			targetProxy = AF6897DC1C7FC3A000A24825 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -812,7 +838,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = widget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = peres.clock.widget;
+				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -824,7 +850,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = widget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = peres.clock.widget;
+				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -836,7 +862,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				INFOPLIST_FILE = "watch-app Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = peres.clock.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -852,7 +878,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				INFOPLIST_FILE = "watch-app Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = peres.clock.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -868,7 +894,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = watch_app_Extension;
 				INFOPLIST_FILE = "watch-app/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = peres.clock.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -885,7 +911,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = watch_app_Extension;
 				INFOPLIST_FILE = "watch-app/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = peres.clock.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -904,7 +930,7 @@
 				);
 				INFOPLIST_FILE = "ios-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = peres.clock.iosapp;
+				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -920,7 +946,7 @@
 				);
 				INFOPLIST_FILE = "ios-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = peres.clock.iosapp;
+				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1011,7 +1037,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E5143731F82010C5F05C7B1F /* Pods-WorldClockWatch.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1042,7 +1068,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 619A495BEAC5F1FC9F3BC9BA /* Pods-WorldClockWatch.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
