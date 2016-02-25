@@ -27,6 +27,14 @@
     return self;
 }
 
+- (NSString*)currentTimeString
+{
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"HH:mm"];
+    [formatter setTimeZone:self.timezone];
+    return [formatter stringFromDate:[NSDate date]];
+}
+
 - (NSString*)description
 {
     return [NSString stringWithFormat:@"%@, %@ - %lu - (%f,%f)",  self.name, self.countryCode, (unsigned long)self.population, self.coordinate.latitude, self.coordinate.longitude];
@@ -38,7 +46,7 @@
     [formatter setDateFormat:@"HH:mm"];
     [formatter setTimeZone:self.timezone];
     
-    return [NSString stringWithFormat:@"%@ in %@, %@", [formatter stringFromDate:[NSDate date]], self.name, self.countryCode];
+    return [NSString stringWithFormat:@"%@ in %@, %@", [self currentTimeString], self.name, self.countryCode];
 }
 
 - (NSString*)subtitle

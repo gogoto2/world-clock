@@ -20,6 +20,7 @@
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 @property (nonatomic, readonly) MKCoordinateRegion region;
 @property (nonatomic, readonly) NSTimeZone *timezone;
+@property (nonatomic, readonly) NSString *currentTimeString;
 
 - (instancetype)initWithResultSet:(FMResultSet*)set;
 

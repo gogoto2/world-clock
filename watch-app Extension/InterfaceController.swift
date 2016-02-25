@@ -8,10 +8,14 @@
 
 import WatchKit
 import Foundation
-
+import WorldClockWatch
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var interfaceMap: WKInterfaceMap!
+    @IBOutlet var timeAndCityLabel: WKInterfaceLabel!
+    @IBOutlet var countryLabel: WKInterfaceLabel!
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         

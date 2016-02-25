@@ -123,6 +123,8 @@
     
     WCCity *city = [[WCCity alloc] initWithResultSet:set];
     
+    
+    
     NSLog(@"%@", city);
     return city;
 }
