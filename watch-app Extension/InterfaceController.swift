@@ -19,7 +19,10 @@ class InterfaceController: WKInterfaceController {
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
+        let city = WCController.random420City()
+        
         // Configure interface objects here.
+        timeAndCityLabel.setText(String(format:"%@ in %@", city.currentTimeString, city.name))
     }
 
     override func willActivate() {
