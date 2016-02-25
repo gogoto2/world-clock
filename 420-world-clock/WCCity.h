@@ -23,4 +23,6 @@
 
 - (instancetype)initWithResultSet:(FMResultSet*)set;
 
+- (NSString*)title;
+
 @end

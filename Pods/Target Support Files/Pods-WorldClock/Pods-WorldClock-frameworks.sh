@@ -84,8 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-420-world-clock/FMDB.framework"
+  install_framework "Pods-WorldClock/FMDB.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-420-world-clock/FMDB.framework"
+  install_framework "Pods-WorldClock/FMDB.framework"
 fi
