@@ -25,6 +25,7 @@
 		5095D0D31C808F23004C55CF /* WCCity.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8108981C7CD4BA0065C422 /* WCCity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5095D0D51C808F23004C55CF /* WCController.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B7B93F1C7F2373007060CB /* WCController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5095D0D61C809039004C55CF /* geo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = AF81089C1C7CDC890065C422 /* geo.sqlite */; };
+		5095D0DB1C8099C3004C55CF /* widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 50B7B9651C7F443E007060CB /* widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		50B7B94E1C7F3CFC007060CB /* WorldClock.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B7B94D1C7F3CFC007060CB /* WorldClock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50B7B95A1C7F3D38007060CB /* WCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B7B9401C7F2373007060CB /* WCController.m */; };
 		50B7B95B1C7F3E3B007060CB /* geo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = AF81089C1C7CDC890065C422 /* geo.sqlite */; };
@@ -69,6 +70,13 @@
 			remoteGlobalIDString = 5095D0C31C808EB9004C55CF;
 			remoteInfo = WorldClockWatch;
 		};
+		5095D0DC1C8099C3004C55CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6489561C7B8F06008D788E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B7B9641C7F443E007060CB;
+			remoteInfo = widget;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -92,6 +100,17 @@
 				5095D0CC1C808EBA004C55CF /* WorldClockWatch.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5095D0DE1C8099C4004C55CF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5095D0DB1C8099C3004C55CF /* widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AF6897DE1C7FC3A600A24825 /* CopyFiles */ = {
@@ -513,11 +532,13 @@
 				50B7B9A11C7F44D9007060CB /* Frameworks */,
 				50B7B9A21C7F44D9007060CB /* Resources */,
 				AF6897DE1C7FC3A600A24825 /* CopyFiles */,
+				5095D0DE1C8099C4004C55CF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				5095D0B61C808EA0004C55CF /* PBXTargetDependency */,
+				5095D0DD1C8099C3004C55CF /* PBXTargetDependency */,
 			);
 			name = "ios-app";
 			productName = "ios-app";
@@ -536,9 +557,11 @@
 				TargetAttributes = {
 					5095D0941C808EA0004C55CF = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WZCH8LX875;
 					};
 					5095D0A01C808EA0004C55CF = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WZCH8LX875;
 					};
 					5095D0C31C808EB9004C55CF = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -548,9 +571,11 @@
 					};
 					50B7B9641C7F443E007060CB = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WZCH8LX875;
 					};
 					50B7B9A31C7F44D9007060CB = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WZCH8LX875;
 					};
 				};
 			};
@@ -761,6 +786,11 @@
 			target = 5095D0C31C808EB9004C55CF /* WorldClockWatch */;
 			targetProxy = 5095D0C91C808EBA004C55CF /* PBXContainerItemProxy */;
 		};
+		5095D0DD1C8099C3004C55CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50B7B9641C7F443E007060CB /* widget */;
+			targetProxy = 5095D0DC1C8099C3004C55CF /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -803,10 +833,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -819,10 +852,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -834,11 +870,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = watch_Extension;
 				INFOPLIST_FILE = watch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -851,11 +890,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = watch_Extension;
 				INFOPLIST_FILE = watch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -958,10 +1000,13 @@
 		50B7B9721C7F443F007060CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = widget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -970,10 +1015,13 @@
 		50B7B9731C7F443F007060CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = widget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -983,6 +1031,9 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -991,6 +1042,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -1000,6 +1052,9 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1008,6 +1063,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
