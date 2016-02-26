@@ -16,90 +16,25 @@
 		50B7B9661C7F443E007060CB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B7B92E1C7F22D6007060CB /* NotificationCenter.framework */; };
 		50B7B9691C7F443E007060CB /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7B9681C7F443E007060CB /* TodayViewController.swift */; };
 		50B7B96C1C7F443E007060CB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B7B96A1C7F443E007060CB /* MainInterface.storyboard */; };
-		50B7B97A1C7F44B9007060CB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B7B9781C7F44B9007060CB /* Interface.storyboard */; };
-		50B7B97C1C7F44B9007060CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B7B97B1C7F44B9007060CB /* Assets.xcassets */; };
-		50B7B9831C7F44B9007060CB /* watch-app Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 50B7B9821C7F44B9007060CB /* watch-app Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		50B7B98A1C7F44B9007060CB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7B9891C7F44B9007060CB /* InterfaceController.swift */; };
-		50B7B98C1C7F44B9007060CB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7B98B1C7F44B9007060CB /* ExtensionDelegate.swift */; };
-		50B7B98E1C7F44B9007060CB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7B98D1C7F44B9007060CB /* NotificationController.swift */; };
-		50B7B9901C7F44B9007060CB /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7B98F1C7F44B9007060CB /* GlanceController.swift */; };
-		50B7B9921C7F44B9007060CB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7B9911C7F44B9007060CB /* ComplicationController.swift */; };
-		50B7B9941C7F44B9007060CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B7B9931C7F44B9007060CB /* Assets.xcassets */; };
 		50B7B9A71C7F44D9007060CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7B9A61C7F44D9007060CB /* AppDelegate.swift */; };
 		50B7B9A91C7F44D9007060CB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7B9A81C7F44D9007060CB /* MasterViewController.swift */; };
 		50B7B9AB1C7F44D9007060CB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7B9AA1C7F44D9007060CB /* DetailViewController.swift */; };
 		50B7B9AE1C7F44D9007060CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B7B9AC1C7F44D9007060CB /* Main.storyboard */; };
 		50B7B9B01C7F44D9007060CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B7B9AF1C7F44D9007060CB /* Assets.xcassets */; };
 		50B7B9B31C7F44D9007060CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B7B9B11C7F44D9007060CB /* LaunchScreen.storyboard */; };
-		50B7B9B81C7F4887007060CB /* WorldClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B7B94B1C7F3CFC007060CB /* WorldClock.framework */; };
+		50B7B9B81C7F4887007060CB /* WorldClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B7B94B1C7F3CFC007060CB /* WorldClock.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		50B7B9B91C7F4891007060CB /* WhirlyGlobeMaplyComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF81088A1C7CD1EB0065C422 /* WhirlyGlobeMaplyComponent.framework */; };
 		642C2B8DE5A0D3EBB92F8A1F /* Pods_WorldClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1ED33B70F6EA3C791E18F8 /* Pods_WorldClock.framework */; };
-		AF6897721C7FB4E500A24825 /* WorldClockWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6897711C7FB4E500A24825 /* WorldClockWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF6897761C7FB4E500A24825 /* WorldClockWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF68976F1C7FB4E500A24825 /* WorldClockWatch.framework */; };
-		AF6897771C7FB4E500A24825 /* WorldClockWatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF68976F1C7FB4E500A24825 /* WorldClockWatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AF68977B1C7FB4ED00A24825 /* WCCity.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8108991C7CD4BA0065C422 /* WCCity.m */; };
-		AF68977C1C7FB4ED00A24825 /* WCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B7B9401C7F2373007060CB /* WCController.m */; };
 		AF6897811C7FB6D800A24825 /* WorldClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B7B94B1C7F3CFC007060CB /* WorldClock.framework */; };
-		AF6897831C7FBEC500A24825 /* WCCity.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8108981C7CD4BA0065C422 /* WCCity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF6897841C7FBEC500A24825 /* WCController.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B7B93F1C7F2373007060CB /* WCController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF6897DF1C7FC3BF00A24825 /* watch-app.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50B7B9761C7F44B9007060CB /* watch-app.app */; };
-		EC30966D0DA50D59B1F12ADC /* Pods_WorldClockWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF68AF450ACA6FFF47DBF93B /* Pods_WorldClockWatch.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		50B7B9841C7F44B9007060CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF6489561C7B8F06008D788E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 50B7B9811C7F44B9007060CB;
-			remoteInfo = "watch-app Extension";
-		};
-		AF6897741C7FB4E500A24825 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF6489561C7B8F06008D788E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AF68976E1C7FB4E500A24825;
-			remoteInfo = WorldClockWatch;
-		};
-		AF6897DC1C7FC3A000A24825 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF6489561C7B8F06008D788E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 50B7B9751C7F44B9007060CB;
-			remoteInfo = "watch-app";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		50B7B99C1C7F44B9007060CB /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				50B7B9831C7F44B9007060CB /* watch-app Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF6897641C7FB47800A24825 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				AF6897771C7FB4E500A24825 /* WorldClockWatch.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AF6897DE1C7FC3A600A24825 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				AF6897DF1C7FC3BF00A24825 /* watch-app.app in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,19 +53,6 @@
 		50B7B9681C7F443E007060CB /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		50B7B96B1C7F443E007060CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		50B7B96D1C7F443E007060CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50B7B9761C7F44B9007060CB /* watch-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50B7B9791C7F44B9007060CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		50B7B97B1C7F44B9007060CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		50B7B97D1C7F44B9007060CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50B7B9821C7F44B9007060CB /* watch-app Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watch-app Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50B7B9881C7F44B9007060CB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		50B7B9891C7F44B9007060CB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		50B7B98B1C7F44B9007060CB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		50B7B98D1C7F44B9007060CB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		50B7B98F1C7F44B9007060CB /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
-		50B7B9911C7F44B9007060CB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		50B7B9931C7F44B9007060CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		50B7B9951C7F44B9007060CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B7B9A41C7F44D9007060CB /* ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B7B9A61C7F44D9007060CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50B7B9A81C7F44D9007060CB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -142,7 +64,6 @@
 		619A495BEAC5F1FC9F3BC9BA /* Pods-WorldClockWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldClockWatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorldClockWatch/Pods-WorldClockWatch.release.xcconfig"; sourceTree = "<group>"; };
 		6AB3B3B10FD24E022582D8CB /* Pods-widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-widget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-widget/Pods-widget.debug.xcconfig"; sourceTree = "<group>"; };
 		87E35327D79051194971F6B3 /* Pods-420-world-clock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-420-world-clock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-420-world-clock/Pods-420-world-clock.debug.xcconfig"; sourceTree = "<group>"; };
-		AF68976F1C7FB4E500A24825 /* WorldClockWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WorldClockWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6897711C7FB4E500A24825 /* WorldClockWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WorldClockWatch.h; path = WorldClockWatch/WorldClockWatch.h; sourceTree = SOURCE_ROOT; };
 		AF6897731C7FB4E500A24825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF68977F1C7FB69100A24825 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = "Pods/../build/Debug-iphoneos/FMDB.framework"; sourceTree = "<group>"; };
@@ -181,28 +102,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50B7B97F1C7F44B9007060CB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF6897761C7FB4E500A24825 /* WorldClockWatch.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		50B7B9A11C7F44D9007060CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				50B7B9B81C7F4887007060CB /* WorldClock.framework in Frameworks */,
 				50B7B9B91C7F4891007060CB /* WhirlyGlobeMaplyComponent.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF68976B1C7FB4E500A24825 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC30966D0DA50D59B1F12ADC /* Pods_WorldClockWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,39 +146,6 @@
 				50B7B96D1C7F443E007060CB /* Info.plist */,
 			);
 			path = widget;
-			sourceTree = "<group>";
-		};
-		50B7B9771C7F44B9007060CB /* watch-app */ = {
-			isa = PBXGroup;
-			children = (
-				50B7B9781C7F44B9007060CB /* Interface.storyboard */,
-				50B7B97B1C7F44B9007060CB /* Assets.xcassets */,
-				50B7B97D1C7F44B9007060CB /* Info.plist */,
-			);
-			path = "watch-app";
-			sourceTree = "<group>";
-		};
-		50B7B9861C7F44B9007060CB /* watch-app Extension */ = {
-			isa = PBXGroup;
-			children = (
-				50B7B9891C7F44B9007060CB /* InterfaceController.swift */,
-				50B7B98B1C7F44B9007060CB /* ExtensionDelegate.swift */,
-				50B7B98D1C7F44B9007060CB /* NotificationController.swift */,
-				50B7B98F1C7F44B9007060CB /* GlanceController.swift */,
-				50B7B9911C7F44B9007060CB /* ComplicationController.swift */,
-				50B7B9931C7F44B9007060CB /* Assets.xcassets */,
-				50B7B9951C7F44B9007060CB /* Info.plist */,
-				50B7B9871C7F44B9007060CB /* Supporting Files */,
-			);
-			path = "watch-app Extension";
-			sourceTree = SOURCE_ROOT;
-		};
-		50B7B9871C7F44B9007060CB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				50B7B9881C7F44B9007060CB /* PushNotificationPayload.apns */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		50B7B9A51C7F44D9007060CB /* ios-app */ = {
@@ -330,8 +202,6 @@
 				AF6897701C7FB4E500A24825 /* WorldClockWatch Framework */,
 				50B7B9A51C7F44D9007060CB /* ios-app */,
 				50B7B9671C7F443E007060CB /* widget */,
-				50B7B9861C7F44B9007060CB /* watch-app Extension */,
-				50B7B9771C7F44B9007060CB /* watch-app */,
 				AF64895F1C7B8F06008D788E /* Products */,
 				6D4C44B51CB397925D832ADC /* Pods */,
 				91F908DAD0F1DE80C108357F /* Frameworks */,
@@ -343,10 +213,7 @@
 			children = (
 				50B7B94B1C7F3CFC007060CB /* WorldClock.framework */,
 				50B7B9651C7F443E007060CB /* widget.appex */,
-				50B7B9761C7F44B9007060CB /* watch-app.app */,
-				50B7B9821C7F44B9007060CB /* watch-app Extension.appex */,
 				50B7B9A41C7F44D9007060CB /* ios-app.app */,
-				AF68976F1C7FB4E500A24825 /* WorldClockWatch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -392,16 +259,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF68976C1C7FB4E500A24825 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF6897721C7FB4E500A24825 /* WorldClockWatch.h in Headers */,
-				AF6897831C7FBEC500A24825 /* WCCity.h in Headers */,
-				AF6897841C7FBEC500A24825 /* WCController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -442,42 +299,6 @@
 			productReference = 50B7B9651C7F443E007060CB /* widget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		50B7B9751C7F44B9007060CB /* watch-app */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 50B7B99D1C7F44B9007060CB /* Build configuration list for PBXNativeTarget "watch-app" */;
-			buildPhases = (
-				50B7B9741C7F44B9007060CB /* Resources */,
-				50B7B99C1C7F44B9007060CB /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				50B7B9851C7F44B9007060CB /* PBXTargetDependency */,
-			);
-			name = "watch-app";
-			productName = "watch-app";
-			productReference = 50B7B9761C7F44B9007060CB /* watch-app.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		50B7B9811C7F44B9007060CB /* watch-app Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 50B7B9991C7F44B9007060CB /* Build configuration list for PBXNativeTarget "watch-app Extension" */;
-			buildPhases = (
-				50B7B97E1C7F44B9007060CB /* Sources */,
-				50B7B97F1C7F44B9007060CB /* Frameworks */,
-				50B7B9801C7F44B9007060CB /* Resources */,
-				AF6897641C7FB47800A24825 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AF6897751C7FB4E500A24825 /* PBXTargetDependency */,
-			);
-			name = "watch-app Extension";
-			productName = "watch-app Extension";
-			productReference = 50B7B9821C7F44B9007060CB /* watch-app Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
 		50B7B9A31C7F44D9007060CB /* ios-app */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50B7B9B51C7F44D9007060CB /* Build configuration list for PBXNativeTarget "ios-app" */;
@@ -490,32 +311,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				AF6897DD1C7FC3A000A24825 /* PBXTargetDependency */,
 			);
 			name = "ios-app";
 			productName = "ios-app";
 			productReference = 50B7B9A41C7F44D9007060CB /* ios-app.app */;
 			productType = "com.apple.product-type.application";
-		};
-		AF68976E1C7FB4E500A24825 /* WorldClockWatch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AF6897781C7FB4E500A24825 /* Build configuration list for PBXNativeTarget "WorldClockWatch" */;
-			buildPhases = (
-				F5BFB0471240062DF917B030 /* Check Pods Manifest.lock */,
-				AF68976A1C7FB4E500A24825 /* Sources */,
-				AF68976B1C7FB4E500A24825 /* Frameworks */,
-				AF68976C1C7FB4E500A24825 /* Headers */,
-				AF68976D1C7FB4E500A24825 /* Resources */,
-				04EDB518780AE4FD6697EAEC /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WorldClockWatch;
-			productName = WorldClockWatch;
-			productReference = AF68976F1C7FB4E500A24825 /* WorldClockWatch.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -533,16 +333,7 @@
 					50B7B9641C7F443E007060CB = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
-					50B7B9751C7F44B9007060CB = {
-						CreatedOnToolsVersion = 7.2.1;
-					};
-					50B7B9811C7F44B9007060CB = {
-						CreatedOnToolsVersion = 7.2.1;
-					};
 					50B7B9A31C7F44D9007060CB = {
-						CreatedOnToolsVersion = 7.2.1;
-					};
-					AF68976E1C7FB4E500A24825 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
@@ -561,9 +352,6 @@
 			projectRoot = "";
 			targets = (
 				50B7B94A1C7F3CFC007060CB /* WorldClock */,
-				AF68976E1C7FB4E500A24825 /* WorldClockWatch */,
-				50B7B9751C7F44B9007060CB /* watch-app */,
-				50B7B9811C7F44B9007060CB /* watch-app Extension */,
 				50B7B9641C7F443E007060CB /* widget */,
 				50B7B9A31C7F44D9007060CB /* ios-app */,
 			);
@@ -587,23 +375,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50B7B9741C7F44B9007060CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50B7B97C1C7F44B9007060CB /* Assets.xcassets in Resources */,
-				50B7B97A1C7F44B9007060CB /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50B7B9801C7F44B9007060CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50B7B9941C7F44B9007060CB /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		50B7B9A21C7F44D9007060CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -614,47 +385,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF68976D1C7FB4E500A24825 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04EDB518780AE4FD6697EAEC /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorldClockWatch/Pods-WorldClockWatch-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5BCFFCE284DE2DF901BC6EFB /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F5BFB0471240062DF917B030 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -704,18 +438,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50B7B97E1C7F44B9007060CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50B7B98E1C7F44B9007060CB /* NotificationController.swift in Sources */,
-				50B7B98C1C7F44B9007060CB /* ExtensionDelegate.swift in Sources */,
-				50B7B9921C7F44B9007060CB /* ComplicationController.swift in Sources */,
-				50B7B98A1C7F44B9007060CB /* InterfaceController.swift in Sources */,
-				50B7B9901C7F44B9007060CB /* GlanceController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		50B7B9A01C7F44D9007060CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -726,34 +448,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF68976A1C7FB4E500A24825 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF68977B1C7FB4ED00A24825 /* WCCity.m in Sources */,
-				AF68977C1C7FB4ED00A24825 /* WCController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		50B7B9851C7F44B9007060CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 50B7B9811C7F44B9007060CB /* watch-app Extension */;
-			targetProxy = 50B7B9841C7F44B9007060CB /* PBXContainerItemProxy */;
-		};
-		AF6897751C7FB4E500A24825 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AF68976E1C7FB4E500A24825 /* WorldClockWatch */;
-			targetProxy = AF6897741C7FB4E500A24825 /* PBXContainerItemProxy */;
-		};
-		AF6897DD1C7FC3A000A24825 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 50B7B9751C7F44B9007060CB /* watch-app */;
-			targetProxy = AF6897DC1C7FC3A000A24825 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		50B7B96A1C7F443E007060CB /* MainInterface.storyboard */ = {
@@ -762,14 +457,6 @@
 				50B7B96B1C7F443E007060CB /* Base */,
 			);
 			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
-		50B7B9781C7F44B9007060CB /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50B7B9791C7F44B9007060CB /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 		50B7B9AC1C7F44D9007060CB /* Main.storyboard */ = {
@@ -853,70 +540,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		50B7B99A1C7F44B9007060CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				INFOPLIST_FILE = "watch-app Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
-			};
-			name = Debug;
-		};
-		50B7B99B1C7F44B9007060CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				INFOPLIST_FILE = "watch-app Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
-			};
-			name = Release;
-		};
-		50B7B99E1C7F44B9007060CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				IBSC_MODULE = watch_app_Extension;
-				INFOPLIST_FILE = "watch-app/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
-			};
-			name = Debug;
-		};
-		50B7B99F1C7F44B9007060CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				IBSC_MODULE = watch_app_Extension;
-				INFOPLIST_FILE = "watch-app/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = peres.world.clock.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Release;
 		};
@@ -1033,67 +656,6 @@
 			};
 			name = Release;
 		};
-		AF6897791C7FB4E500A24825 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5143731F82010C5F05C7B1F /* Pods-WorldClockWatch.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-					"$(SRCROOT)/**",
-				);
-				INFOPLIST_FILE = WorldClockWatch/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = peres.WorldClockWatch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
-			};
-			name = Debug;
-		};
-		AF68977A1C7FB4E500A24825 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 619A495BEAC5F1FC9F3BC9BA /* Pods-WorldClockWatch.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-					"$(SRCROOT)/**",
-				);
-				INFOPLIST_FILE = WorldClockWatch/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = peres.WorldClockWatch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1115,24 +677,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50B7B9991C7F44B9007060CB /* Build configuration list for PBXNativeTarget "watch-app Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				50B7B99A1C7F44B9007060CB /* Debug */,
-				50B7B99B1C7F44B9007060CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		50B7B99D1C7F44B9007060CB /* Build configuration list for PBXNativeTarget "watch-app" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				50B7B99E1C7F44B9007060CB /* Debug */,
-				50B7B99F1C7F44B9007060CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		50B7B9B51C7F44D9007060CB /* Build configuration list for PBXNativeTarget "ios-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1147,15 +691,6 @@
 			buildConfigurations = (
 				AF6489761C7B8F06008D788E /* Debug */,
 				AF6489771C7B8F06008D788E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AF6897781C7FB4E500A24825 /* Build configuration list for PBXNativeTarget "WorldClockWatch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AF6897791C7FB4E500A24825 /* Debug */,
-				AF68977A1C7FB4E500A24825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,263 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00395CA18C2B8E6AAF31CA79517A971C /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCF4E3843D5D58CE47A9F70EA0D4BD1 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0146B12643977A3C636A728B9428024F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D79CDBEF832FB5A2106CDDC44C55D38 /* Foundation.framework */; };
-		01EDD89790F4AF34E679D656A7F614F4 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2016DA0776D5C8452E5F54BB4ECDC5BC /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0577678F48A7DE142A44D1819D273288 /* Pods-WorldClock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E807274C830831AD1BCCD7C108D54D7 /* Pods-WorldClock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0844B2C5999D0E6F385CAC62B6BC0561 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 37618958D5A83926557D5E01C2D7A73A /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AF573D99A845744EA08E16F8791FBE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D79CDBEF832FB5A2106CDDC44C55D38 /* Foundation.framework */; };
-		126A994047CAEA11777C5C05CE5D31C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6B89BDF4940B4AF9D57D7449055DAA /* Foundation.framework */; };
-		13E7F98A443F72A519D034102EB6D5D1 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCF4E3843D5D58CE47A9F70EA0D4BD1 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17DCC1DDF12960E62396845FDF3DD2E7 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 61910CC99B469CE68098733809195D48 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		266167E54C01A6216BEDE744EDDF4700 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D6C32428E6A40534D6BBC0A9298A8C /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2A0CBD9C7FB6403D9C4D251A259B8C4A /* Pods-WorldClockWatch-FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C50205FD0B85EE3977A92641818F43 /* Pods-WorldClockWatch-FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42C067D2FD489F72AE9E65CD6E6111E2 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D89A3CE71DFF196FA883E0F68EA5460 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A20DF95D581846D6537BD9849286BD7 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = CE86326B69DDA10E7DBD3F586C7F4FA9 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CAB06D78538DE74D3DF98FC99C58F56 /* Pods-WorldClock-FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF86B38317565A13CD650D6F614C47A3 /* Pods-WorldClock-FMDB-dummy.m */; };
-		5A25CC00F7E36392D3B35BF0654C6D15 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F39B23B96633704FA7567416C3A0036 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5AB156E5F638FA1C0406B1653A7E2E31 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = CE86326B69DDA10E7DBD3F586C7F4FA9 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		622718F5E1A5ED971FE98931E4CBD208 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = DD3B9B1554CDA9A70FBB5FFB0AFF9C16 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D16BF3FD0D1C36558D41094985E4123 /* Pods-WorldClockWatch-FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6EEE7022D8088785ABEE60C616C23D /* Pods-WorldClockWatch-FMDB-dummy.m */; };
-		72508FD77D04598FAA3460C1C020B933 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2016DA0776D5C8452E5F54BB4ECDC5BC /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		78F6F730D18B3A2DDF8159CCFB51615F /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = A96B986E6069D02DE37BE7B62D6D4871 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83F3C9B0F4E8204CBDEEDED6283673A0 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3FEDDD8F2506BAE5F3588364839F30 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8D6458742F32372860BE841105D8E72C /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3FEDDD8F2506BAE5F3588364839F30 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8ECFA34CA4AC730E1C048DB3255AAF76 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = A96B986E6069D02DE37BE7B62D6D4871 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BD1BD84496DFE4661D94F102D7704A3 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = DD3B9B1554CDA9A70FBB5FFB0AFF9C16 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C205AD37149E805C9615AA59761FF8C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 61910CC99B469CE68098733809195D48 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A3316099D2DDA7270386AE208C99BDE7 /* Pods-WorldClockWatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EFBD6948352C2C332CAB0B93AA3BA4 /* Pods-WorldClockWatch-dummy.m */; };
-		A88D947F7F9666C33C32518646816E6C /* Pods-WorldClockWatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BDA30B4C00F1EF4B271A1CC6FB1A777 /* Pods-WorldClockWatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A964F97E93E27ACD1E09D3F6B9AEBBED /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D89A3CE71DFF196FA883E0F68EA5460 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC221EA588D3468D86C11B9D82A79724 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F39B23B96633704FA7567416C3A0036 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B3112961EA769C36BCDCBC41E3E03D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6B89BDF4940B4AF9D57D7449055DAA /* Foundation.framework */; };
-		C0F1D7551D5F82606387E40FC5348E4E /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 37618958D5A83926557D5E01C2D7A73A /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9C092273047AA8FC3A101AB4499A716 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D6C32428E6A40534D6BBC0A9298A8C /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D34E7A5DD031D427E00CAE2362B3B59E /* Pods-WorldClock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C32BC50837FB84FCB8DA88B04A68DB /* Pods-WorldClock-dummy.m */; };
-		D978B9186F6E60A8D7EBFC96C0BA5304 /* Pods-WorldClock-FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E941F8A0B09F4A81F2563FB2D535E4 /* Pods-WorldClock-FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		019E60D29A61FE6AC4CE835BF4F556B8 /* Pods-WorldClock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDA8EA4EE2318A8CA42F5D98D700FA9 /* Pods-WorldClock-dummy.m */; };
+		08C552DC90912A211D48614467246F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		0D619A711F71058C9238B17E9AF48AFC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E784FE473275B6CE21E9FC8AE454E /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		159DE0890B1201A1AD6D339ECC2D3679 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		183A0D8AF38E0EE20E47F1FEF9B37327 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F546D17BEE96A3AC80F5733BACB23C /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ACD3564541752BBF3824BC9D5EA406C /* Pods-WorldClock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7E92647A2FF3EB42AB3E8CE38A7A2A /* Pods-WorldClock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ECC23FFAE400A6B2658AAF2990D83BE /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E08DD3F409CC910BDF9AAC0E1BEB35 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F61BE79D4B46C119C136EDE960CE78C /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CFEEF64A76609C0E88017B38B7E12DA /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C63E2BEBE2BC08BD46F6A91D0A08143 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C9B19641620A44266703CB7F104828 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74695802583BDB0C0818AC1B97F63815 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C4BBD76359D36C69E5804A290D1C5ED2 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C818AE74E830311E61FF1A7E42D0713 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF62A1F971FFFC84C36F474CF296297 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AD01D434D8D120A3767270766AD30797 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 774678108D22A09213789D973E2051AC /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA88E88A631D6BD023521B7206CE6C25 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5085BA3C5279C337F6D921E5CAFB1FC /* FMDB-dummy.m */; };
+		C8FC0929A42C36174794FE1ADFD620E3 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D2F8382360C935E0097F1CB2E26820 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E330886E0E7C450E9669C4BD025D9ABD /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 351F8E59854BCD39585AB8A055AC2F52 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0895B2A83F948153E1E5EA38A230B66 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B97A597AFE8B5A90EDFF8560393C46B /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F5A0569CB70F6F37A16E32EE210D0C66 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48C0E1AA39302CCDD55032B7544B36 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		92C5A18F22D034FE019D8029365D2B28 /* PBXContainerItemProxy */ = {
+		550139F574B4F22DED00EEA5A6AEDAE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BF1145A942ADBA05B3074265C7375B60;
-			remoteInfo = "Pods-WorldClockWatch-FMDB";
-		};
-		D50ECCB10BD191F134252915899BF221 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD61E26BD865479D8419431374614056;
-			remoteInfo = "Pods-WorldClock-FMDB";
+			remoteGlobalIDString = 23CF27B2BA6AC7125EFFEDA8C5AA819F;
+			remoteInfo = FMDB;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		054635DB50134C69D557678671E71815 /* Pods-WorldClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldClock.release.xcconfig"; sourceTree = "<group>"; };
-		06CEEFDD9E4ED6B6C80408B98E8385B5 /* Pods-WorldClock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WorldClock.modulemap"; sourceTree = "<group>"; };
-		09FB036B7DC8C60D8C0531F0567FD40D /* Pods-WorldClock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldClock-acknowledgements.plist"; sourceTree = "<group>"; };
-		0AEC1108807B74ECE7AB17027DD2FEEE /* Pods-WorldClock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldClock-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0B378AF58CE9F817B6F6230D90A25A1B /* Pods-WorldClockWatch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldClockWatch-frameworks.sh"; sourceTree = "<group>"; };
-		0BDA30B4C00F1EF4B271A1CC6FB1A777 /* Pods-WorldClockWatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldClockWatch-umbrella.h"; sourceTree = "<group>"; };
-		0F39B23B96633704FA7567416C3A0036 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
-		0F85FF2EA4594D06F403CB961D6C3478 /* Pods-WorldClockWatch-FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-WorldClockWatch-FMDB-prefix.pch"; path = "../Pods-WorldClockWatch-FMDB/Pods-WorldClockWatch-FMDB-prefix.pch"; sourceTree = "<group>"; };
-		0FCF4E3843D5D58CE47A9F70EA0D4BD1 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
-		1AE100164A053A29E0BF3A4D9E3E4B71 /* Pods-WorldClock-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldClock-frameworks.sh"; sourceTree = "<group>"; };
-		2016DA0776D5C8452E5F54BB4ECDC5BC /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
-		214E5321D6FB4FBC4F404BF48288018B /* Pods-WorldClockWatch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldClockWatch-resources.sh"; sourceTree = "<group>"; };
-		2A260CAA2A599D09287A3D3218C8624E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D89A3CE71DFF196FA883E0F68EA5460 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
-		37618958D5A83926557D5E01C2D7A73A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		37C32BC50837FB84FCB8DA88B04A68DB /* Pods-WorldClock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldClock-dummy.m"; sourceTree = "<group>"; };
-		3EB4D884D0C45125831332EE1E49C78E /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		60C50205FD0B85EE3977A92641818F43 /* Pods-WorldClockWatch-FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-WorldClockWatch-FMDB-umbrella.h"; path = "../Pods-WorldClockWatch-FMDB/Pods-WorldClockWatch-FMDB-umbrella.h"; sourceTree = "<group>"; };
-		61910CC99B469CE68098733809195D48 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
-		625C152D93230C02750D7B8B47DEFE30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D79CDBEF832FB5A2106CDDC44C55D38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6DD6FC3249D70DE774A4EF72923CD9EC /* Pods-WorldClockWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldClockWatch.release.xcconfig"; sourceTree = "<group>"; };
-		7647FEA15CEA703FC2DF27068996D22C /* Pods-WorldClockWatch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldClockWatch-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7B6EEE7022D8088785ABEE60C616C23D /* Pods-WorldClockWatch-FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-WorldClockWatch-FMDB-dummy.m"; path = "../Pods-WorldClockWatch-FMDB/Pods-WorldClockWatch-FMDB-dummy.m"; sourceTree = "<group>"; };
-		7E807274C830831AD1BCCD7C108D54D7 /* Pods-WorldClock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldClock-umbrella.h"; sourceTree = "<group>"; };
-		82E941F8A0B09F4A81F2563FB2D535E4 /* Pods-WorldClock-FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldClock-FMDB-umbrella.h"; sourceTree = "<group>"; };
-		8C6B89BDF4940B4AF9D57D7449055DAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93B4F7D2C5F5AC59A8B7AF207A0325B9 /* Pods-WorldClockWatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WorldClockWatch.modulemap"; sourceTree = "<group>"; };
-		A0833B29B181ADBC76385A9EFDA68EBB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5FF07D7DB9B2F00DA3361CC464B3B85 /* Pods-WorldClock-FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldClock-FMDB.xcconfig"; sourceTree = "<group>"; };
-		A96B986E6069D02DE37BE7B62D6D4871 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
-		ACD8ED6A6E03D590BC3137433B827737 /* Pods-WorldClockWatch-FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-WorldClockWatch-FMDB.modulemap"; path = "../Pods-WorldClockWatch-FMDB/Pods-WorldClockWatch-FMDB.modulemap"; sourceTree = "<group>"; };
-		AF86B38317565A13CD650D6F614C47A3 /* Pods-WorldClock-FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldClock-FMDB-dummy.m"; sourceTree = "<group>"; };
-		B9572F275C2FE89CF04C4A6FE9A6FE77 /* Pods-WorldClock-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldClock-resources.sh"; sourceTree = "<group>"; };
-		B9D6C32428E6A40534D6BBC0A9298A8C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		BA3FEDDD8F2506BAE5F3588364839F30 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		01C9B19641620A44266703CB7F104828 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		1F3E784FE473275B6CE21E9FC8AE454E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		33FDF369FA6156D169BB737E7CA72A5A /* Pods-WorldClock-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldClock-frameworks.sh"; sourceTree = "<group>"; };
+		351F8E59854BCD39585AB8A055AC2F52 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E7326ED6470DE228947A514029B9057 /* Pods-WorldClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldClock.debug.xcconfig"; sourceTree = "<group>"; };
+		4B97A597AFE8B5A90EDFF8560393C46B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		4C3DFC292FED038A21CBF3A8BA2C8C7F /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5074A653A6528098A4EC83DCC71033FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CFEEF64A76609C0E88017B38B7E12DA /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		73E08DD3F409CC910BDF9AAC0E1BEB35 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		774678108D22A09213789D973E2051AC /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
+		7A8CD8701957249F7734D86299E81991 /* Pods-WorldClock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldClock-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D338E81628A36A5D9BE8C77BF37075B /* Pods_WorldClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF62A1F971FFFC84C36F474CF296297 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		8F19709519495A823EA948AA6F15BCD6 /* Pods-WorldClock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WorldClock.modulemap"; sourceTree = "<group>"; };
+		A2D2F8382360C935E0097F1CB2E26820 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		A82124697E95B25065BF5AC6D962526C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22114E7098BF8E52F899CCE1A91E6FE /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		B97CC7F7ED98D85D31663DDFAF034BBC /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FMDB.modulemap; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C8EFEA6FAEE31A333297B224974DE5A0 /* Pods-WorldClock-FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldClock-FMDB-prefix.pch"; sourceTree = "<group>"; };
-		CE461C742085D19AA92209A9736CA7EC /* Pods-WorldClockWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldClockWatch.debug.xcconfig"; sourceTree = "<group>"; };
-		CE86326B69DDA10E7DBD3F586C7F4FA9 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
-		D126531D69D92EB3187DCB44B34A8136 /* Pods_WorldClockWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldClockWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD3B9B1554CDA9A70FBB5FFB0AFF9C16 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
-		DFB488052D0CB525AB9B0C8F230B6FDD /* Pods-WorldClock-FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WorldClock-FMDB.modulemap"; sourceTree = "<group>"; };
-		E32DFC5689A7E8EBFCAD2FABDEA3AE24 /* Pods-WorldClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldClock.debug.xcconfig"; sourceTree = "<group>"; };
-		E3EFBD6948352C2C332CAB0B93AA3BA4 /* Pods-WorldClockWatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldClockWatch-dummy.m"; sourceTree = "<group>"; };
-		E8F0DB2BD73835551976F9494CA5C012 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-WorldClockWatch-FMDB/Info.plist"; sourceTree = "<group>"; };
-		E9820CE52F45EB426EF9C87FD7326670 /* Pods-WorldClockWatch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldClockWatch-acknowledgements.plist"; sourceTree = "<group>"; };
-		F23A933C2C18C2C14E81E4A6CF9C66E1 /* Pods_WorldClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFE544236AB497DA8F83F9AFD7917B93 /* Pods-WorldClockWatch-FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldClockWatch-FMDB.xcconfig"; path = "../Pods-WorldClockWatch-FMDB/Pods-WorldClockWatch-FMDB.xcconfig"; sourceTree = "<group>"; };
+		C4BBD76359D36C69E5804A290D1C5ED2 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		C80DA57F8CD6FA6C1FE9516FC1FCBB41 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		CCA732BF7A8FDB52998B24C6EDFCA996 /* Pods-WorldClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldClock.release.xcconfig"; sourceTree = "<group>"; };
+		CEDA8EA4EE2318A8CA42F5D98D700FA9 /* Pods-WorldClock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldClock-dummy.m"; sourceTree = "<group>"; };
+		CEF80A6A112E8C637EFE2023C9E962A6 /* Pods-WorldClock-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldClock-resources.sh"; sourceTree = "<group>"; };
+		D5085BA3C5279C337F6D921E5CAFB1FC /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		DEDCFD700FA2CCAD82A4DB1A8C7479B0 /* Pods-WorldClock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldClock-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED48C0E1AA39302CCDD55032B7544B36 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		F1F546D17BEE96A3AC80F5733BACB23C /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		FE7E92647A2FF3EB42AB3E8CE38A7A2A /* Pods-WorldClock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldClock-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		102A8144BBBBCC31D1B05A5AAC08FB5D /* Frameworks */ = {
+		07163A0956D3012D6BF74E0B0E4CE17D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AF573D99A845744EA08E16F8791FBE8 /* Foundation.framework in Frameworks */,
+				159DE0890B1201A1AD6D339ECC2D3679 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		630C32DFE37E1B9603566255E399F56A /* Frameworks */ = {
+		D99379F16E070EF7782C850F5AE11DFB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				126A994047CAEA11777C5C05CE5D31C5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAFE341E8888FD6FDBDB4E77F549078D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3112961EA769C36BCDCBC41E3E03D47 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEDC15D7D3B98F3B23CD909EA90A42A3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0146B12643977A3C636A728B9428024F /* Foundation.framework in Frameworks */,
+				08C552DC90912A211D48614467246F8C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		073B2F9512893328464BACFF91317021 /* Targets Support Files */ = {
+		2E850078C01C3E9B5106F818B3FE877A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				56F5DB94984502CF32652967A32E91F9 /* Pods-WorldClock */,
-				F2529AAA9F77210F8DB32CCBE4DB11BF /* Pods-WorldClockWatch */,
+				B960F2AB22F7E539A5064AB6148C173C /* Pods-WorldClock */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0CE7A3D289577E615E8024A392F4EC37 /* standard */ = {
+		2E8A70666402923F61614F521EE0CA29 /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
-				DD3B9B1554CDA9A70FBB5FFB0AFF9C16 /* FMDatabase.h */,
-				2016DA0776D5C8452E5F54BB4ECDC5BC /* FMDatabase.m */,
-				37618958D5A83926557D5E01C2D7A73A /* FMDatabaseAdditions.h */,
-				B9D6C32428E6A40534D6BBC0A9298A8C /* FMDatabaseAdditions.m */,
-				A96B986E6069D02DE37BE7B62D6D4871 /* FMDatabasePool.h */,
-				0F39B23B96633704FA7567416C3A0036 /* FMDatabasePool.m */,
-				2D89A3CE71DFF196FA883E0F68EA5460 /* FMDatabaseQueue.h */,
-				BA3FEDDD8F2506BAE5F3588364839F30 /* FMDatabaseQueue.m */,
-				0FCF4E3843D5D58CE47A9F70EA0D4BD1 /* FMDB.h */,
-				CE86326B69DDA10E7DBD3F586C7F4FA9 /* FMResultSet.h */,
-				61910CC99B469CE68098733809195D48 /* FMResultSet.m */,
+				F6DE655E75ADFE1AA964C216FFC0DF35 /* standard */,
+				B7ADE86BD1C1E36B1DE5372BFA4CDC0F /* Support Files */,
 			);
-			name = standard;
-			sourceTree = "<group>";
-		};
-		2FC65A50A88C8B59036B00828C42E504 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E8F0DB2BD73835551976F9494CA5C012 /* Info.plist */,
-				625C152D93230C02750D7B8B47DEFE30 /* Info.plist */,
-				DFB488052D0CB525AB9B0C8F230B6FDD /* Pods-WorldClock-FMDB.modulemap */,
-				A5FF07D7DB9B2F00DA3361CC464B3B85 /* Pods-WorldClock-FMDB.xcconfig */,
-				AF86B38317565A13CD650D6F614C47A3 /* Pods-WorldClock-FMDB-dummy.m */,
-				C8EFEA6FAEE31A333297B224974DE5A0 /* Pods-WorldClock-FMDB-prefix.pch */,
-				82E941F8A0B09F4A81F2563FB2D535E4 /* Pods-WorldClock-FMDB-umbrella.h */,
-				ACD8ED6A6E03D590BC3137433B827737 /* Pods-WorldClockWatch-FMDB.modulemap */,
-				FFE544236AB497DA8F83F9AFD7917B93 /* Pods-WorldClockWatch-FMDB.xcconfig */,
-				7B6EEE7022D8088785ABEE60C616C23D /* Pods-WorldClockWatch-FMDB-dummy.m */,
-				0F85FF2EA4594D06F403CB961D6C3478 /* Pods-WorldClockWatch-FMDB-prefix.pch */,
-				60C50205FD0B85EE3977A92641818F43 /* Pods-WorldClockWatch-FMDB-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-WorldClock-FMDB";
-			sourceTree = "<group>";
-		};
-		5122A3F52D800E80BACD9CC992713105 /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				8C6B89BDF4940B4AF9D57D7449055DAA /* Foundation.framework */,
-			);
-			name = watchOS;
-			sourceTree = "<group>";
-		};
-		56F5DB94984502CF32652967A32E91F9 /* Pods-WorldClock */ = {
-			isa = PBXGroup;
-			children = (
-				A0833B29B181ADBC76385A9EFDA68EBB /* Info.plist */,
-				06CEEFDD9E4ED6B6C80408B98E8385B5 /* Pods-WorldClock.modulemap */,
-				0AEC1108807B74ECE7AB17027DD2FEEE /* Pods-WorldClock-acknowledgements.markdown */,
-				09FB036B7DC8C60D8C0531F0567FD40D /* Pods-WorldClock-acknowledgements.plist */,
-				37C32BC50837FB84FCB8DA88B04A68DB /* Pods-WorldClock-dummy.m */,
-				1AE100164A053A29E0BF3A4D9E3E4B71 /* Pods-WorldClock-frameworks.sh */,
-				B9572F275C2FE89CF04C4A6FE9A6FE77 /* Pods-WorldClock-resources.sh */,
-				7E807274C830831AD1BCCD7C108D54D7 /* Pods-WorldClock-umbrella.h */,
-				E32DFC5689A7E8EBFCAD2FABDEA3AE24 /* Pods-WorldClock.debug.xcconfig */,
-				054635DB50134C69D557678671E71815 /* Pods-WorldClock.release.xcconfig */,
-			);
-			name = "Pods-WorldClock";
-			path = "Target Support Files/Pods-WorldClock";
-			sourceTree = "<group>";
-		};
-		69F98CDEC1914A69F4F143B4EF9B7C7E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3EB4D884D0C45125831332EE1E49C78E /* FMDB.framework */,
-				F23A933C2C18C2C14E81E4A6CF9C66E1 /* Pods_WorldClock.framework */,
-				D126531D69D92EB3187DCB44B34A8136 /* Pods_WorldClockWatch.framework */,
-			);
-			name = Products;
+			path = FMDB;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				8F91EE078EA3977443D1BDC2601132EF /* Frameworks */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				BFB8C92E749ED180124155E2270474D2 /* Pods */,
-				69F98CDEC1914A69F4F143B4EF9B7C7E /* Products */,
-				073B2F9512893328464BACFF91317021 /* Targets Support Files */,
+				F04BF4264860F09E35D2EA86D3BDD3B8 /* Products */,
+				2E850078C01C3E9B5106F818B3FE877A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7FF9C1859F8DA2401A2D508342B1BE76 /* FMDB */ = {
+		B7ADE86BD1C1E36B1DE5372BFA4CDC0F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0CE7A3D289577E615E8024A392F4EC37 /* standard */,
-				2FC65A50A88C8B59036B00828C42E504 /* Support Files */,
+				B97CC7F7ED98D85D31663DDFAF034BBC /* FMDB.modulemap */,
+				B22114E7098BF8E52F899CCE1A91E6FE /* FMDB.xcconfig */,
+				D5085BA3C5279C337F6D921E5CAFB1FC /* FMDB-dummy.m */,
+				C80DA57F8CD6FA6C1FE9516FC1FCBB41 /* FMDB-prefix.pch */,
+				774678108D22A09213789D973E2051AC /* FMDB-umbrella.h */,
+				A82124697E95B25065BF5AC6D962526C /* Info.plist */,
 			);
-			path = FMDB;
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
 			sourceTree = "<group>";
 		};
-		8F91EE078EA3977443D1BDC2601132EF /* Frameworks */ = {
+		B960F2AB22F7E539A5064AB6148C173C /* Pods-WorldClock */ = {
 			isa = PBXGroup;
 			children = (
-				BEA166D13A2FBD7DDAD7CEE0F68399FD /* iOS */,
-				5122A3F52D800E80BACD9CC992713105 /* watchOS */,
+				5074A653A6528098A4EC83DCC71033FC /* Info.plist */,
+				8F19709519495A823EA948AA6F15BCD6 /* Pods-WorldClock.modulemap */,
+				DEDCFD700FA2CCAD82A4DB1A8C7479B0 /* Pods-WorldClock-acknowledgements.markdown */,
+				7A8CD8701957249F7734D86299E81991 /* Pods-WorldClock-acknowledgements.plist */,
+				CEDA8EA4EE2318A8CA42F5D98D700FA9 /* Pods-WorldClock-dummy.m */,
+				33FDF369FA6156D169BB737E7CA72A5A /* Pods-WorldClock-frameworks.sh */,
+				CEF80A6A112E8C637EFE2023C9E962A6 /* Pods-WorldClock-resources.sh */,
+				FE7E92647A2FF3EB42AB3E8CE38A7A2A /* Pods-WorldClock-umbrella.h */,
+				3E7326ED6470DE228947A514029B9057 /* Pods-WorldClock.debug.xcconfig */,
+				CCA732BF7A8FDB52998B24C6EDFCA996 /* Pods-WorldClock.release.xcconfig */,
+			);
+			name = "Pods-WorldClock";
+			path = "Target Support Files/Pods-WorldClock";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BEA166D13A2FBD7DDAD7CEE0F68399FD /* iOS */ = {
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6D79CDBEF832FB5A2106CDDC44C55D38 /* Foundation.framework */,
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -271,147 +169,99 @@
 		BFB8C92E749ED180124155E2270474D2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7FF9C1859F8DA2401A2D508342B1BE76 /* FMDB */,
+				2E8A70666402923F61614F521EE0CA29 /* FMDB */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F2529AAA9F77210F8DB32CCBE4DB11BF /* Pods-WorldClockWatch */ = {
+		F04BF4264860F09E35D2EA86D3BDD3B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A260CAA2A599D09287A3D3218C8624E /* Info.plist */,
-				93B4F7D2C5F5AC59A8B7AF207A0325B9 /* Pods-WorldClockWatch.modulemap */,
-				7647FEA15CEA703FC2DF27068996D22C /* Pods-WorldClockWatch-acknowledgements.markdown */,
-				E9820CE52F45EB426EF9C87FD7326670 /* Pods-WorldClockWatch-acknowledgements.plist */,
-				E3EFBD6948352C2C332CAB0B93AA3BA4 /* Pods-WorldClockWatch-dummy.m */,
-				0B378AF58CE9F817B6F6230D90A25A1B /* Pods-WorldClockWatch-frameworks.sh */,
-				214E5321D6FB4FBC4F404BF48288018B /* Pods-WorldClockWatch-resources.sh */,
-				0BDA30B4C00F1EF4B271A1CC6FB1A777 /* Pods-WorldClockWatch-umbrella.h */,
-				CE461C742085D19AA92209A9736CA7EC /* Pods-WorldClockWatch.debug.xcconfig */,
-				6DD6FC3249D70DE774A4EF72923CD9EC /* Pods-WorldClockWatch.release.xcconfig */,
+				4C3DFC292FED038A21CBF3A8BA2C8C7F /* FMDB.framework */,
+				7D338E81628A36A5D9BE8C77BF37075B /* Pods_WorldClock.framework */,
 			);
-			name = "Pods-WorldClockWatch";
-			path = "Target Support Files/Pods-WorldClockWatch";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6DE655E75ADFE1AA964C216FFC0DF35 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				6CFEEF64A76609C0E88017B38B7E12DA /* FMDatabase.h */,
+				ED48C0E1AA39302CCDD55032B7544B36 /* FMDatabase.m */,
+				C4BBD76359D36C69E5804A290D1C5ED2 /* FMDatabaseAdditions.h */,
+				4B97A597AFE8B5A90EDFF8560393C46B /* FMDatabaseAdditions.m */,
+				01C9B19641620A44266703CB7F104828 /* FMDatabasePool.h */,
+				A2D2F8382360C935E0097F1CB2E26820 /* FMDatabasePool.m */,
+				351F8E59854BCD39585AB8A055AC2F52 /* FMDatabaseQueue.h */,
+				1F3E784FE473275B6CE21E9FC8AE454E /* FMDatabaseQueue.m */,
+				73E08DD3F409CC910BDF9AAC0E1BEB35 /* FMDB.h */,
+				F1F546D17BEE96A3AC80F5733BACB23C /* FMResultSet.h */,
+				8DF62A1F971FFFC84C36F474CF296297 /* FMResultSet.m */,
+			);
+			name = standard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1AD4DE03719E21ABA31A81E0DD96C18B /* Headers */ = {
+		0033873C50BD878CA65AEB15FC9D6FD0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0577678F48A7DE142A44D1819D273288 /* Pods-WorldClock-umbrella.h in Headers */,
+				1ACD3564541752BBF3824BC9D5EA406C /* Pods-WorldClock-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43A172BA09022080ED509353D4186635 /* Headers */ = {
+		A8A1B98F16F13F2F72C375E44D51EE8A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				622718F5E1A5ED971FE98931E4CBD208 /* FMDatabase.h in Headers */,
-				0844B2C5999D0E6F385CAC62B6BC0561 /* FMDatabaseAdditions.h in Headers */,
-				8ECFA34CA4AC730E1C048DB3255AAF76 /* FMDatabasePool.h in Headers */,
-				A964F97E93E27ACD1E09D3F6B9AEBBED /* FMDatabaseQueue.h in Headers */,
-				13E7F98A443F72A519D034102EB6D5D1 /* FMDB.h in Headers */,
-				5AB156E5F638FA1C0406B1653A7E2E31 /* FMResultSet.h in Headers */,
-				2A0CBD9C7FB6403D9C4D251A259B8C4A /* Pods-WorldClockWatch-FMDB-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B453192F67F735392D749DD213AC236 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9BD1BD84496DFE4661D94F102D7704A3 /* FMDatabase.h in Headers */,
-				C0F1D7551D5F82606387E40FC5348E4E /* FMDatabaseAdditions.h in Headers */,
-				78F6F730D18B3A2DDF8159CCFB51615F /* FMDatabasePool.h in Headers */,
-				42C067D2FD489F72AE9E65CD6E6111E2 /* FMDatabaseQueue.h in Headers */,
-				00395CA18C2B8E6AAF31CA79517A971C /* FMDB.h in Headers */,
-				4A20DF95D581846D6537BD9849286BD7 /* FMResultSet.h in Headers */,
-				D978B9186F6E60A8D7EBFC96C0BA5304 /* Pods-WorldClock-FMDB-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E71D5AA8EECE7D37FEC4149E3301CBB8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A88D947F7F9666C33C32518646816E6C /* Pods-WorldClockWatch-umbrella.h in Headers */,
+				3F61BE79D4B46C119C136EDE960CE78C /* FMDatabase.h in Headers */,
+				74695802583BDB0C0818AC1B97F63815 /* FMDatabaseAdditions.h in Headers */,
+				6C63E2BEBE2BC08BD46F6A91D0A08143 /* FMDatabasePool.h in Headers */,
+				E330886E0E7C450E9669C4BD025D9ABD /* FMDatabaseQueue.h in Headers */,
+				AD01D434D8D120A3767270766AD30797 /* FMDB-umbrella.h in Headers */,
+				3ECC23FFAE400A6B2658AAF2990D83BE /* FMDB.h in Headers */,
+				183A0D8AF38E0EE20E47F1FEF9B37327 /* FMResultSet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		ACA9C5213550DA21F331007EC8FEAD17 /* Pods-WorldClockWatch */ = {
+		23CF27B2BA6AC7125EFFEDA8C5AA819F /* FMDB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C206CA1DE44CDF5E63FAD5D1E43390E /* Build configuration list for PBXNativeTarget "Pods-WorldClockWatch" */;
+			buildConfigurationList = E130BB4A68655453C9FDC5692FA44094 /* Build configuration list for PBXNativeTarget "FMDB" */;
 			buildPhases = (
-				4F49308BE1461C69AD305F3BCA945DE9 /* Sources */,
-				630C32DFE37E1B9603566255E399F56A /* Frameworks */,
-				E71D5AA8EECE7D37FEC4149E3301CBB8 /* Headers */,
+				6F019F4B57C689E3B448935B617CFF76 /* Sources */,
+				07163A0956D3012D6BF74E0B0E4CE17D /* Frameworks */,
+				A8A1B98F16F13F2F72C375E44D51EE8A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A015CCB1ECF0357209DF7276063C0B0E /* PBXTargetDependency */,
 			);
-			name = "Pods-WorldClockWatch";
-			productName = "Pods-WorldClockWatch";
-			productReference = D126531D69D92EB3187DCB44B34A8136 /* Pods_WorldClockWatch.framework */;
+			name = FMDB;
+			productName = FMDB;
+			productReference = 4C3DFC292FED038A21CBF3A8BA2C8C7F /* FMDB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AF51D47E7E18A200923953F0A19A9C90 /* Pods-WorldClock */ = {
+		BDC88673EFB5E257F8E72F660CEC47D0 /* Pods-WorldClock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5C314D5C6BE85E96C82FD8D4E38B3F2 /* Build configuration list for PBXNativeTarget "Pods-WorldClock" */;
+			buildConfigurationList = 7AB3765B25847D94EC8EEB3A7B5E9FD6 /* Build configuration list for PBXNativeTarget "Pods-WorldClock" */;
 			buildPhases = (
-				B9C20B0332CB7DC18B5DEB1E903EC504 /* Sources */,
-				DEDC15D7D3B98F3B23CD909EA90A42A3 /* Frameworks */,
-				1AD4DE03719E21ABA31A81E0DD96C18B /* Headers */,
+				0042E79816CE1D15F2ED88AE4E2F225C /* Sources */,
+				D99379F16E070EF7782C850F5AE11DFB /* Frameworks */,
+				0033873C50BD878CA65AEB15FC9D6FD0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4FEDF5099A3AB0979D3C0EFF229B1552 /* PBXTargetDependency */,
+				8FF55C674C0A7EAF227D44057737E3E8 /* PBXTargetDependency */,
 			);
 			name = "Pods-WorldClock";
 			productName = "Pods-WorldClock";
-			productReference = F23A933C2C18C2C14E81E4A6CF9C66E1 /* Pods_WorldClock.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BF1145A942ADBA05B3074265C7375B60 /* Pods-WorldClockWatch-FMDB */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A03C6698A5776FC5E0F13422ECB6B4F1 /* Build configuration list for PBXNativeTarget "Pods-WorldClockWatch-FMDB" */;
-			buildPhases = (
-				F6D6CE84A937512B151751E47CF444DD /* Sources */,
-				AAFE341E8888FD6FDBDB4E77F549078D /* Frameworks */,
-				43A172BA09022080ED509353D4186635 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-WorldClockWatch-FMDB";
-			productName = "Pods-WorldClockWatch-FMDB";
-			productReference = 3EB4D884D0C45125831332EE1E49C78E /* FMDB.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CD61E26BD865479D8419431374614056 /* Pods-WorldClock-FMDB */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E9AEB01C2221DE31E99631A901FD95C7 /* Build configuration list for PBXNativeTarget "Pods-WorldClock-FMDB" */;
-			buildPhases = (
-				EE5803F6F0295958DC518CABEB4D4E9A /* Sources */,
-				102A8144BBBBCC31D1B05A5AAC08FB5D /* Frameworks */,
-				4B453192F67F735392D749DD213AC236 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-WorldClock-FMDB";
-			productName = "Pods-WorldClock-FMDB";
-			productReference = 3EB4D884D0C45125831332EE1E49C78E /* FMDB.framework */;
+			productReference = 7D338E81628A36A5D9BE8C77BF37075B /* Pods_WorldClock.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -431,197 +281,53 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 69F98CDEC1914A69F4F143B4EF9B7C7E /* Products */;
+			productRefGroup = F04BF4264860F09E35D2EA86D3BDD3B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF51D47E7E18A200923953F0A19A9C90 /* Pods-WorldClock */,
-				CD61E26BD865479D8419431374614056 /* Pods-WorldClock-FMDB */,
-				ACA9C5213550DA21F331007EC8FEAD17 /* Pods-WorldClockWatch */,
-				BF1145A942ADBA05B3074265C7375B60 /* Pods-WorldClockWatch-FMDB */,
+				23CF27B2BA6AC7125EFFEDA8C5AA819F /* FMDB */,
+				BDC88673EFB5E257F8E72F660CEC47D0 /* Pods-WorldClock */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F49308BE1461C69AD305F3BCA945DE9 /* Sources */ = {
+		0042E79816CE1D15F2ED88AE4E2F225C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3316099D2DDA7270386AE208C99BDE7 /* Pods-WorldClockWatch-dummy.m in Sources */,
+				019E60D29A61FE6AC4CE835BF4F556B8 /* Pods-WorldClock-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9C20B0332CB7DC18B5DEB1E903EC504 /* Sources */ = {
+		6F019F4B57C689E3B448935B617CFF76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D34E7A5DD031D427E00CAE2362B3B59E /* Pods-WorldClock-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE5803F6F0295958DC518CABEB4D4E9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01EDD89790F4AF34E679D656A7F614F4 /* FMDatabase.m in Sources */,
-				C9C092273047AA8FC3A101AB4499A716 /* FMDatabaseAdditions.m in Sources */,
-				5A25CC00F7E36392D3B35BF0654C6D15 /* FMDatabasePool.m in Sources */,
-				83F3C9B0F4E8204CBDEEDED6283673A0 /* FMDatabaseQueue.m in Sources */,
-				9C205AD37149E805C9615AA59761FF8C /* FMResultSet.m in Sources */,
-				4CAB06D78538DE74D3DF98FC99C58F56 /* Pods-WorldClock-FMDB-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F6D6CE84A937512B151751E47CF444DD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72508FD77D04598FAA3460C1C020B933 /* FMDatabase.m in Sources */,
-				266167E54C01A6216BEDE744EDDF4700 /* FMDatabaseAdditions.m in Sources */,
-				AC221EA588D3468D86C11B9D82A79724 /* FMDatabasePool.m in Sources */,
-				8D6458742F32372860BE841105D8E72C /* FMDatabaseQueue.m in Sources */,
-				17DCC1DDF12960E62396845FDF3DD2E7 /* FMResultSet.m in Sources */,
-				6D16BF3FD0D1C36558D41094985E4123 /* Pods-WorldClockWatch-FMDB-dummy.m in Sources */,
+				F5A0569CB70F6F37A16E32EE210D0C66 /* FMDatabase.m in Sources */,
+				F0895B2A83F948153E1E5EA38A230B66 /* FMDatabaseAdditions.m in Sources */,
+				C8FC0929A42C36174794FE1ADFD620E3 /* FMDatabasePool.m in Sources */,
+				0D619A711F71058C9238B17E9AF48AFC /* FMDatabaseQueue.m in Sources */,
+				BA88E88A631D6BD023521B7206CE6C25 /* FMDB-dummy.m in Sources */,
+				7C818AE74E830311E61FF1A7E42D0713 /* FMResultSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4FEDF5099A3AB0979D3C0EFF229B1552 /* PBXTargetDependency */ = {
+		8FF55C674C0A7EAF227D44057737E3E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-WorldClock-FMDB";
-			target = CD61E26BD865479D8419431374614056 /* Pods-WorldClock-FMDB */;
-			targetProxy = D50ECCB10BD191F134252915899BF221 /* PBXContainerItemProxy */;
-		};
-		A015CCB1ECF0357209DF7276063C0B0E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-WorldClockWatch-FMDB";
-			target = BF1145A942ADBA05B3074265C7375B60 /* Pods-WorldClockWatch-FMDB */;
-			targetProxy = 92C5A18F22D034FE019D8029365D2B28 /* PBXContainerItemProxy */;
+			name = FMDB;
+			target = 23CF27B2BA6AC7125EFFEDA8C5AA819F /* FMDB */;
+			targetProxy = 550139F574B4F22DED00EEA5A6AEDAE9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		24856E261850D752FC030E0BD9F7ECFE /* Release */ = {
+		1B1BA6D31B90329B1BE6C5D534EB2985 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DD6FC3249D70DE774A4EF72923CD9EC /* Pods-WorldClockWatch.release.xcconfig */;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WorldClockWatch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WorldClockWatch/Pods-WorldClockWatch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_WorldClockWatch;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		5BF38ACC4A2F22014BDBFEF53683CD44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		5E11FE1258E1AF380B82DD96AA064032 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFE544236AB497DA8F83F9AFD7917B93 /* Pods-WorldClockWatch-FMDB.xcconfig */;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-WorldClockWatch-FMDB/Pods-WorldClockWatch-FMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-WorldClockWatch-FMDB/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-WorldClockWatch-FMDB/Pods-WorldClockWatch-FMDB.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = FMDB;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				VALID_ARCHS = "armv7k i386 x86_64";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		60C7AF2428EF130552121D0915AAD6CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE461C742085D19AA92209A9736CA7EC /* Pods-WorldClockWatch.debug.xcconfig */;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WorldClockWatch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WorldClockWatch/Pods-WorldClockWatch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_WorldClockWatch;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		6152D401E8CEF08946B921C6FF76BA5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E32DFC5689A7E8EBFCAD2FABDEA3AE24 /* Pods-WorldClock.debug.xcconfig */;
+			baseConfigurationReference = B22114E7098BF8E52F899CCE1A91E6FE /* FMDB.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -630,55 +336,23 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WorldClock/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WorldClock/Pods-WorldClock.modulemap";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_WorldClock;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BD2443052BAEA95292FC33175C93F850 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5FF07D7DB9B2F00DA3361CC464B3B85 /* Pods-WorldClock-FMDB.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-WorldClock-FMDB/Pods-WorldClock-FMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-WorldClock-FMDB/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-WorldClock-FMDB/Pods-WorldClock-FMDB.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = FMDB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C349C737A585A62E420B6D88D1470E40 /* Debug */ = {
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -714,13 +388,12 @@
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		EC93ED131B465AD74FD1D5A5164D1BDE /* Release */ = {
+		60312EECEE89D6C430C8361CABCA9311 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 054635DB50134C69D557678671E71815 /* Pods-WorldClock.release.xcconfig */;
+			baseConfigurationReference = CCA732BF7A8FDB52998B24C6EDFCA996 /* Pods-WorldClock.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -748,34 +421,43 @@
 			};
 			name = Release;
 		};
-		F091EDB04CACC05A045B2273E194D31E /* Release */ = {
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFE544236AB497DA8F83F9AFD7917B93 /* Pods-WorldClockWatch-FMDB.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-WorldClockWatch-FMDB/Pods-WorldClockWatch-FMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-WorldClockWatch-FMDB/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-WorldClockWatch-FMDB/Pods-WorldClockWatch-FMDB.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FMDB;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				VALID_ARCHS = "armv7k i386 x86_64";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		FD7BC44A3F6473DAD339666BB087862E /* Release */ = {
+		8F3E566AAE73C295B66D9BCD89CC913D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5FF07D7DB9B2F00DA3361CC464B3B85 /* Pods-WorldClock-FMDB.xcconfig */;
+			baseConfigurationReference = B22114E7098BF8E52F899CCE1A91E6FE /* FMDB.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -784,23 +466,51 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-WorldClock-FMDB/Pods-WorldClock-FMDB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-WorldClock-FMDB/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-WorldClock-FMDB/Pods-WorldClock-FMDB.modulemap";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = FMDB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		925F099D5B22F98AD301849A084CD661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7326ED6470DE228947A514029B9057 /* Pods-WorldClock.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldClock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldClock/Pods-WorldClock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WorldClock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -808,44 +518,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C349C737A585A62E420B6D88D1470E40 /* Debug */,
-				5BF38ACC4A2F22014BDBFEF53683CD44 /* Release */,
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C206CA1DE44CDF5E63FAD5D1E43390E /* Build configuration list for PBXNativeTarget "Pods-WorldClockWatch" */ = {
+		7AB3765B25847D94EC8EEB3A7B5E9FD6 /* Build configuration list for PBXNativeTarget "Pods-WorldClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60C7AF2428EF130552121D0915AAD6CF /* Debug */,
-				24856E261850D752FC030E0BD9F7ECFE /* Release */,
+				925F099D5B22F98AD301849A084CD661 /* Debug */,
+				60312EECEE89D6C430C8361CABCA9311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A03C6698A5776FC5E0F13422ECB6B4F1 /* Build configuration list for PBXNativeTarget "Pods-WorldClockWatch-FMDB" */ = {
+		E130BB4A68655453C9FDC5692FA44094 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E11FE1258E1AF380B82DD96AA064032 /* Debug */,
-				F091EDB04CACC05A045B2273E194D31E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E5C314D5C6BE85E96C82FD8D4E38B3F2 /* Build configuration list for PBXNativeTarget "Pods-WorldClock" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6152D401E8CEF08946B921C6FF76BA5D /* Debug */,
-				EC93ED131B465AD74FD1D5A5164D1BDE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E9AEB01C2221DE31E99631A901FD95C7 /* Build configuration list for PBXNativeTarget "Pods-WorldClock-FMDB" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BD2443052BAEA95292FC33175C93F850 /* Debug */,
-				FD7BC44A3F6473DAD339666BB087862E /* Release */,
+				1B1BA6D31B90329B1BE6C5D534EB2985 /* Debug */,
+				8F3E566AAE73C295B66D9BCD89CC913D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

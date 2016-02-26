@@ -6,11 +6,6 @@ target 'WorldClock' do
     pod 'FMDB'
 end
 
-target 'WorldClockWatch' do
-    platform :watchos, '2.0'
-    pod 'FMDB'
-end
-
 #post_install do |installer|
 #    installer.pods_project.targets.each do |target|
 #        if target.name == 'Pods-WorldClockWatch'
