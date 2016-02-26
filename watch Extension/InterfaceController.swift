@@ -12,17 +12,25 @@ import WorldClockWatch
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var hourAndCityLabel: WKInterfaceLabel!
+    @IBOutlet var countryLabel: WKInterfaceLabel!
+    @IBOutlet var mapView: WKInterfaceMap!
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
-        
-        // Configure interface objects here.
-        let city = WCController.random420City()
-        NSLog("%@", city.description)
+
     }
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        
+        // Configure interface objects here.
+        let city = WCController.random420City()
+        
+        hourAndCityLabel.setText(city.currentTimeString + " in " + city.name)
+        countryLabel.setText(city.countryCode)
+        mapView.setRegion(city.region)
     }
 
     override func didDeactivate() {

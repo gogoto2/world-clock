@@ -68,7 +68,7 @@
         [calendar setTimeZone:[NSTimeZone timeZoneWithName:name]];
         components = [calendar components:(NSCalendarUnitHour | NSCalendarUnitMinute) fromDate:[NSDate date]];
         
-        if ((components.hour == 4 && components.minute <= 20) || (components.hour == 16 && components.minute <= 20))
+        if ((components.hour == 4 && components.minute <= 30) || (components.hour == 16 && components.minute <= 30))
         {
             [formatter setTimeZone:[NSTimeZone timeZoneWithName:name]];
             [current420 addObject:name];
