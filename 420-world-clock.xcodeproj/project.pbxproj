@@ -44,6 +44,7 @@
 		50B7B9B81C7F4887007060CB /* WorldClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B7B94B1C7F3CFC007060CB /* WorldClock.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		50B7B9B91C7F4891007060CB /* WhirlyGlobeMaplyComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF81088A1C7CD1EB0065C422 /* WhirlyGlobeMaplyComponent.framework */; };
 		642C2B8DE5A0D3EBB92F8A1F /* Pods_WorldClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1ED33B70F6EA3C791E18F8 /* Pods_WorldClock.framework */; };
+		AF526B851C88EB2D00BBF1DD /* WorldClock.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50B7B94B1C7F3CFC007060CB /* WorldClock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF6897811C7FB6D800A24825 /* WorldClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B7B94B1C7F3CFC007060CB /* WorldClock.framework */; };
 		B9576B64FFC9085158C5769B /* Pods_WorldClockWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF68AF450ACA6FFF47DBF93B /* Pods_WorldClockWatch.framework */; };
 /* End PBXBuildFile section */
@@ -76,6 +77,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 50B7B9641C7F443E007060CB;
 			remoteInfo = widget;
+		};
+		AF526B861C88EB2D00BBF1DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6489561C7B8F06008D788E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B7B94A1C7F3CFC007060CB;
+			remoteInfo = WorldClock;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -111,6 +119,17 @@
 				5095D0DB1C8099C3004C55CF /* widget.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF526B881C88EB2D00BBF1DD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AF526B851C88EB2D00BBF1DD /* WorldClock.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AF6897DE1C7FC3A600A24825 /* CopyFiles */ = {
@@ -533,12 +552,14 @@
 				50B7B9A21C7F44D9007060CB /* Resources */,
 				AF6897DE1C7FC3A600A24825 /* CopyFiles */,
 				5095D0DE1C8099C4004C55CF /* Embed App Extensions */,
+				AF526B881C88EB2D00BBF1DD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				5095D0B61C808EA0004C55CF /* PBXTargetDependency */,
 				5095D0DD1C8099C3004C55CF /* PBXTargetDependency */,
+				AF526B871C88EB2D00BBF1DD /* PBXTargetDependency */,
 			);
 			name = "ios-app";
 			productName = "ios-app";
@@ -568,6 +589,7 @@
 					};
 					50B7B94A1C7F3CFC007060CB = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WZCH8LX875;
 					};
 					50B7B9641C7F443E007060CB = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -791,6 +813,11 @@
 			target = 50B7B9641C7F443E007060CB /* widget */;
 			targetProxy = 5095D0DC1C8099C3004C55CF /* PBXContainerItemProxy */;
 		};
+		AF526B871C88EB2D00BBF1DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50B7B94A1C7F3CFC007060CB /* WorldClock */;
+			targetProxy = AF526B861C88EB2D00BBF1DD /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -959,6 +986,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D75563342A273E5B24E43FC7 /* Pods-WorldClock.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -980,6 +1010,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B374404E33F56E6380AB16F /* Pods-WorldClock.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
