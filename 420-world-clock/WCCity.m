@@ -51,7 +51,7 @@
 
 - (NSString*)subtitle
 {
-    return [NSString stringWithFormat:@"Population: %d", self.population];
+    return [NSString stringWithFormat:@"Population: %lu", (unsigned long)self.population];
 }
 
 - (MKCoordinateRegion)region
